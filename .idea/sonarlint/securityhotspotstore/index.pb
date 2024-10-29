@@ -54,3 +54,9 @@ w
 G.idea/sonarlint/issuestore/b/0/b08f1ab659fbdd998f45c0def99188f980cc899b,f\0\f02077a62409edef2ca75d759afa0d272bb868f2
 w
 G.idea/sonarlint/issuestore/b/5/b57774c8bc698bd92bfb0d49377cd308684357b7,e\d\ed8b99de788cf8402b74907bb69ce8831db69b4d
+R
+"src/MyCircularLinkedList/Node.java,5\a\5af9bb5bb4cb4da830064e813353d3b843498cd5
+`
+0src/MyCircularLinkedList/CircularLinkedList.java,a\5\a575453eb040b0e558cae04f34a5b273dbe0fe57
+R
+"src/MyCircularLinkedList/Main.java,d\f\df41a16972ac13a2e5ecc4f91278c4775019f821
