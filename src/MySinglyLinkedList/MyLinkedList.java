@@ -1,10 +1,10 @@
-package MyLinkedList;
+package MySinglyLinkedList;
 
-public class LinkedList {
+public class MyLinkedList {
     private Node head;
 
-    public void insertAtTheEnd(int data) {
-        Node node = new Node();
+    public void insertAtEnd(int data) {
+        Node node= new Node();
         node.setData(data);
 
         if (head == null) {
@@ -18,21 +18,21 @@ public class LinkedList {
         }
     }
 
-    public void insertAtTheBeginning(int data) {
-        Node node = new Node();
+    public void insertAtStart(int data) {
+        Node node= new Node();
         node.setData(data);
         node.setNext(head);
         head = node;
     }
 
     public void insertAt(int index, int data) {
-        Node node = new Node();
+        Node node= new Node();
         node.setData(data);
         if (index == 0) {
-            insertAtTheBeginning(data);
+            insertAtStart(data);
         }else{
             Node temp = head;
-            for (int i = 0; i < index - 1; i++) {
+            for (int i = 0; i < index-1; i++) {
                 temp = temp.getNext();
             }
             node.setNext(temp.getNext());
@@ -45,14 +45,14 @@ public class LinkedList {
             head = head.getNext();
         }else{
             Node temp = head;
-            for (int i = 0; i < index - 1; i++) {
+            for (int i = 0; i < index-1; i++) {
                 temp = temp.getNext();
             }
             temp.setNext(temp.getNext().getNext());
         }
     }
 
-    public void showData(){
+    public void show(){
         Node temp = head;
         while (temp != null) {
             System.out.println(temp.getData());
