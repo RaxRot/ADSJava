@@ -60,3 +60,9 @@ U
 %src/MySinglyLinkedList/MainSingl.java,6\e\6ee25bf4c1976c17e165f68bfbb4add2716c92ad
 V
 &src/MySinglyLinkedList/MainSingle.java,d\4\d4875a23be13b95089dab8fda407f1c376112be7
+\
+,src/MyCircularSinglyLinkedList/Тщву.java,7\6\76621e5c0cf493d6b6704af9fa082225ad1ec3f2
+X
+(src/MyCircularSinglyLinkedList/Node.java,9\e\9e91c8b534108353018294c85e62a2760117f1bc
+h
+8src/MyCircularSinglyLinkedList/MyCircularLinkedList.java,2\0\20c96824351a8d10141f64b2f9dfd9ef7783c43f
