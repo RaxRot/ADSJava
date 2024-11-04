@@ -48,9 +48,6 @@ public class MyCircularLinkedList {
 
             for (int i = 0; i < index - 1; i++) {
                 temp = temp.getNext();
-                if (temp == head) {  // Проверка на выход за пределы
-                    throw new IndexOutOfBoundsException("Index out of bounds");
-                }
             }
             node.setNext(temp.getNext());
             temp.setNext(node);
@@ -58,9 +55,6 @@ public class MyCircularLinkedList {
     }
 
     public void deleteAt(int index) {
-        if (head == null) {
-            throw new IndexOutOfBoundsException("List is empty");
-        }
 
         if (index == 0) {
             if (head.getNext() == head) {  // Если в списке только один узел
