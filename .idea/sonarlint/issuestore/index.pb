@@ -44,3 +44,13 @@ P
  src/MyDoublyLinkedList/Node.java,a\f\afa39e475d3f15735ce4241d2f31c466f736dd5e
 \
 ,src/MyDoublyLinkedList/DoublyLinkedList.java,c\7\c74d3a37eaad4c67770cea03d5bcde03db1b38f1
+P
+ src/MyBinarySearchTree/Node.java,a\e\ae26d3703fa20f46a09dee8fe8e3526a340a091b
+\
+,src/MyBinarySearchTree/BinarySearchTree.java,d\8\d8db41a08d2d1b44c5b45ba62794bcaf083ef0dd
+B
+src/LAB6/Node.java,c\5\c5fbb7fa3c1122e66c3f1e4b90a790bae5fe1eae
+E
+src/LAB6/Lab6BST.java,6\d\6dc47a48be088be72c2f47d36611c65b2dc9e3a2
+H
+src/MyStack/MyStack.java,1\c\1cec5eb9e7dd81ac94d8938cc8e4069c6fbb29ea
