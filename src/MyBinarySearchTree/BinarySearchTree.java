@@ -72,42 +72,25 @@ public class BinarySearchTree {
         return search(root, key);
     }
 
-    public Node getRoot() {
+    // Подсчёт количества листьев
+    private int countLeaves(Node root) {
+        if (root == null) {
+            return 0; // Нет узлов
+        }
+        if (root.getLeft() == null && root.getRight() == null) {
+            return 1; // Узел является листом
+        }
+        // Рекурсивно считаем листья в левом и правом поддеревьях
+        return countLeaves(root.getLeft()) + countLeaves(root.getRight());
+    }
+
+    public int countLeaves() {
+        return countLeaves(root); // Вызываем метод для корневого узла
+    }
+
+    public Node getRoot(){
         return root;
     }
 
-    // Count leaves (without children)
-    public void countLeavesWithoutChildren() {
-        int count = runToCheckWithoutChildren(root);
-        System.out.println("Count of leaves without children is " + count);
-    }
 
-    private int runToCheckWithoutChildren(Node root) {
-        if (root == null) {
-            return 0;
-        }
-        int count = 0;
-        if (root.getLeft() == null && root.getRight() == null) {
-            count++;
-        }
-        count += runToCheckWithoutChildren(root.getLeft());
-        count += runToCheckWithoutChildren(root.getRight());
-        return count;
-    }
-
-    // Count all nodes
-    public void countLeaves() {
-        int count = runLeaves(root);
-        System.out.println("Count total is " + count);
-    }
-
-    private int runLeaves(Node root) {
-        if (root == null) {
-            return 0;
-        }
-        int count = 1;
-        count += runLeaves(root.getLeft());
-        count += runLeaves(root.getRight());
-        return count;
-    }
 }

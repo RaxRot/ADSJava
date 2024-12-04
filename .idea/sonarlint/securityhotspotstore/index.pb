@@ -48,9 +48,15 @@ P
  src/MyBinarySearchTree/Node.java,a\e\ae26d3703fa20f46a09dee8fe8e3526a340a091b
 \
 ,src/MyBinarySearchTree/BinarySearchTree.java,d\8\d8db41a08d2d1b44c5b45ba62794bcaf083ef0dd
-B
-src/LAB6/Node.java,c\5\c5fbb7fa3c1122e66c3f1e4b90a790bae5fe1eae
-E
-src/LAB6/Lab6BST.java,6\d\6dc47a48be088be72c2f47d36611c65b2dc9e3a2
 H
 src/MyStack/MyStack.java,1\c\1cec5eb9e7dd81ac94d8938cc8e4069c6fbb29ea
+@
+src/MyQueue.java,2\2\221f37fdcae1be7ea80357b951505c60d8c131f2
+B
+src/Test/Node.java,a\f\afa5a890a19747718ba0a159aa7aaa33583d51d0
+N
+src/Test/SortedLinkedList.java,0\e\0e09a59ee6acf4dd1e4b685153b9d065086dd3b6
+V
+&src/Search/TwoTypesOfLinearSearch.java,5\2\52ad58f384de48cba3ee2bc8a1c00a03970ee4f9
+P
+ src/Search/SearchAlgorithms.java,7\2\724372ce0ca3f644b41ea38a8d44fe55ab1d04b4

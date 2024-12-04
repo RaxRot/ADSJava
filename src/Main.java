@@ -5,7 +5,8 @@ import MyStack.MyStack;
 
 public class Main {
     public static void main(String[] args) {
-
+        //testMyStack();
+        testBinarySearchTree();
     }
 
 
@@ -45,14 +46,14 @@ public class Main {
        tree.insert(87);
        tree.insert(95);
 
-        //tree.inorder(tree.getRoot());
+        tree.inorder(tree.getRoot());
         //tree.preorder(tree.getRoot());
         //tree.showLeavesWithoutChildrens();
         //tree.inorder(tree.getRoot());
-        tree.countLeaves();
+
     }
 
-    public void testMyStack(){
+    public static void testMyStack(){
         MyStack myStack = new MyStack();
         myStack.push(1);
         myStack.push(2);
