@@ -26,4 +26,23 @@ public class SearchAlgorithms {
         }
         return -1;
     }
+
+    public static int binarySearch(int[] arr, int key) {
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (left <= right) {
+            int middlePosition = (left + right) / 2;
+            int middleNumber= arr[middlePosition];
+            if (middleNumber == key) {
+                return middlePosition;
+            }
+            if (key < middleNumber) {
+                right = middlePosition - 1;
+            }else{
+                left = middlePosition + 1;
+            }
+        }
+        return -1;
+    }
 }
